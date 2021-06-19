@@ -1,0 +1,19 @@
+.rerouter{
+    position: absolute;
+    left: 0;
+    z-index: 6;
+    transform: translateY(90vh);
+    margin:1.5rem 0rem;
+    background:black;
+    width: 100%;
+    h1{
+        color: white;
+        font-family:$noto_sans;
+        font-size: 1rem;
+        @include nav_animation;
+    }
+    h1:hover{
+        color: greenyellow;
+        @include nav_animation;
+    }
+}
