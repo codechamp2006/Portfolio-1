@@ -1,0 +1,50 @@
+a{
+    text-decoration:none;
+}
+
+.footer{
+    position: absolute;
+    background-color: $footer-black;
+    height:20%;
+    width: 100%;
+    transform: translateY(400%);
+    color: white;
+}
+
+.footer-col-1{
+    display:flex;
+    flex-direction: row;
+}
+
+.footer-col-1 li{
+    margin: 1rem 1rem;
+    font-family: $noto_sans;
+    list-style: none;
+    @include nav_animation;
+    color: white;
+}
+
+.footer-col-1 li:hover{
+    cursor: pointer;
+    color: orangered;
+    @include nav_animation;
+}
+
+.footer-col-2{
+    display:flex;
+    flex-direction: row;
+}
+
+.footer-col-2 li{
+    margin: 1rem 1rem;
+    font-family: $noto_sans;
+    list-style: none;
+    @include nav_animation;
+    color: white;
+}
+
+.footer-col-2 li:hover{
+    cursor: pointer;
+    color: $Github;
+    @include nav_animation;
+}

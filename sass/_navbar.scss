@@ -1,0 +1,39 @@
+@import './variables';
+@import './config';
+
+.navbar {
+    top: 0;
+    left: 0;
+    background-color: $nav_black;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    z-index: 4;
+}
+
+.nav-items ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-items li{
+    list-style: none;
+    color: $nav_items;
+    margin: 1rem 0.6rem;
+    font-family: $poppins;
+    font-weight:bold;
+    font-size:1rem;
+    @include nav_animation;
+}
+
+.nav-items li:hover{
+    cursor: pointer;
+    color: $nav_items_hover;
+    border-bottom: 1px solid $nav_items_hover;
+    @include nav_animation;
+}
+
+.nav-items a{
+    text-decoration: none;
+}
+

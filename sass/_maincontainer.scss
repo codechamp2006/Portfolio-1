@@ -1,0 +1,44 @@
+.content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background:$body-background;
+    color: white;
+}
+
+
+.explore-btn h1{
+    position: absolute;
+    z-index: 5;
+    font-family: $poppins;
+    font-size: 1.5rem;
+}
+.explore-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 1rem 1rem;
+    background:white;
+    color: black;
+    height:7vh;
+    width:20vw;
+    z-index: 4;
+    transform: translate(35vw,15vh);
+    border-radius: 5px;
+    padding:0rem 1rem; 
+    @include button_transition;
+}
+
+.explore-btn:hover{
+    cursor: pointer;
+    background: linear-gradient(to right,$tensorflow_web_orange_left,$tensorflow_web_orange_right);
+    color: white;
+    @include button_transition;
+    transform: translate(35vw,15vh) scale(110%);
+}
+
+
+

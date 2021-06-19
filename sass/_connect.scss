@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+$Raleway-connect: 'Raleway', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+$Roboto-connect: 'Roboto', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+$Dancing-connect:'Dancing Script', cursive;
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.background-img-mountain img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.connect-header{
+    position: absolute;
+    z-index: 2;
+    margin: 1rem 2rem;
+
+    h1{
+        font-family:$Raleway-connect;
+        font-size: 2rem;
+    }
+}
+
+.connect-paragraph{
+    position: absolute;
+    z-index: 2;
+    transform: translateY(15vh);
+    padding: 1rem 1rem;
+    margin: 1rem 2rem;
+
+    p{
+        font-family:$Roboto-connect;
+    }
+}
+
+.connect-with-me-greet{
+    position: absolute;
+    z-index: 2;
+    transform: translateY(25vh);
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    h2{
+        font-family:$Dancing-connect;
+        font-size:2.5rem;
+        font-weight:900;
+    }
+}
+
+.github{
+    display:flex;
+    flex-direction:row;
+    z-index: 6;
+}
+
+.github-slider{
+    position: absolute;
+    background-color:white;
+    width: 60%;
+    height:5%;
+    transform: translate(-30vw,50vh);
+    z-index: 6;
+    border-radius: 15px;
+    margin:1rem 0rem;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    @include connect_transition;
+
+    p{
+        font-family:$noto_sans;
+        color: black;
+    }
+}
+
+.github-slider:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
+    transform: translate(-30vw,49.5vh);
+    @include connect_transition;
+}
+
+.gmail{
+    display:flex;
+    flex-direction:row;
+    z-index: 6;
+}
+
+.gmail-slider{
+    position: absolute;
+    background-color:white;
+    width: 60%;
+    height:5%;
+    transform: translate(-30vw,57vh);
+    z-index: 6;
+    border-radius: 15px;
+    margin:1.5rem 0rem;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    @include connect_transition;
+
+    p{
+        font-family:$noto_sans;
+        color: black;
+    }
+}
+
+.gmail-slider:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
+    transform: translate(-30vw,56.5vh);
+    @include connect_transition;
+}
+
+
