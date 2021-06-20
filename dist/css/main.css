@@ -277,14 +277,4 @@ a {
   color: greenyellow;
   transition: 0.3s ease-in-out;
 }
-
-#speed {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#speed h1 {
-  font-family: "Poppins", sans-serif;
-}
 /*# sourceMappingURL=main.css.map */

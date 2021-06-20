@@ -12,6 +12,7 @@ testLatency(function(avg){
   isConnectedFast = (avg <= tThreshold);
   /** output */
 document.getElementById("speed").innerHTML = (("Latency: " + (avg.toFixed(2)) + "ms"));
+// Styling output
 document.getElementById("speed").style.fontFamily = 'Poppins', sans-serif;
 });
 
