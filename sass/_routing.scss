@@ -1,0 +1,11 @@
+@import './variables';
+
+#speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-family: $poppins;
+    }
+}

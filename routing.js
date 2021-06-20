@@ -11,8 +11,8 @@ var isConnectedFast = false;
 testLatency(function(avg){
   isConnectedFast = (avg <= tThreshold);
   /** output */
-  document.getElementById("speed").innerHTML = (("Latency: " + (avg.toFixed(2)) + "ms")
-  );
+document.getElementById("speed").innerHTML = (("Latency: " + (avg.toFixed(2)) + "ms"));
+document.getElementById("speed").style.fontFamily = 'Poppins', sans-serif;
 });
 
 /** test and average time took to download image from server, called recursively timesToTest times */
