@@ -93,8 +93,12 @@ function MeasureConnectionSpeed() {
         var speedBps = (bitsLoaded / duration).toFixed(2);
         var speedKbps = (speedBps / 1024).toFixed(2);
         var speedMbps = (speedKbps / 1024).toFixed(2);
+        // styling output
+        document.getElementById("mbpsSpeed").innerHTML = (
+            "Your connection speed is: " + speedMbps + " Mbps");
+        document.getElementById("mbpsSpeed").style.fontFamily = 'Poppins',sans-serif;
 
-        return document.getElementById("mbpsSpeed").innerHTML = (
-            "Your connection speed is:" + speedMbps + "Mbps"); 
+        // conditions to display outputs according to speed
+        // need to implement this
     }
 }

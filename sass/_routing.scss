@@ -1,2 +1,42 @@
 @import './variables';
 
+.routing{
+    font-family:$poppins;
+    font-size:1rem;
+    background:black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size:1rem;
+}
+
+
+button{
+    font-family:'Poppins',sans-serif;
+    height:4rem;
+    width: 100%;
+    border: none;
+    @include buttongo_transition;
+    border-radius:5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background:linear-gradient(to right,#FF6E00,#FF9000);
+    border: none;
+    @include buttongo_transition;
+    color: white;
+    transform: scale(105%);
+}
+
+#analyse{
+    color: white;
+}
+
+.speed-card{
+    position: absolute;
+    transform: translateY(35vh);
+}
