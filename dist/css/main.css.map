@@ -18,7 +18,8 @@
         "../../sass/_rerouter.scss",
         "../../sass/_routing.scss",
         "../../sass/_variables.scss",
-        "../../sass/_home.scss"
+        "../../sass/_home.scss",
+        "../../sass/_about.scss"
     ],
     "names": [],
     "file": "main.css"
