@@ -5,7 +5,10 @@ var arrTimes = [];
 var i = 0; // start
 var timesToTest = 5;
 var tThreshold = 150; //ms
-var testImage = "http://www.google.com/images/phd/px.gif"; // small image in your server
+// var testImage = "http://www.google.com/images/phd/px.gif"; // small image in your server
+// var testImage = "https://cdn.jsdelivr.net/gh/codechamp2006/Portfolio-1@main/dist/images/california.jpg"
+var testImage = "https://res.cloudinary.com/dl1z6mcsl/image/upload/v1624290155/kalen-emsley-Bkci_8qcdvQ-unsplash_l5vw0d.jpg";
+// var testImage = "https://ik.imagekit.io/gna0wch172q/icons8-youtube-studio-48_vj3EwgZw0.png"
 var dummyImage = new Image();
 var isConnectedFast = false;
 
@@ -40,8 +43,9 @@ function testLatency(cb) {
 // Speed code in mbps
 // link -- https://stackoverflow.com/a/5529841
 // image from unsplash hosted in jsdelivr
-var imageAddr = "https://cdn.jsdelivr.net/gh/codechamp2006/Portfolio-1@main/dist/images/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg"; 
-var downloadSize = 4995374; //bytes
+// var imageAddr = "https://cdn.jsdelivr.net/gh/codechamp2006/Portfolio-1@main/dist/images/california.jpg"; 
+var imageAddr = "https://res.cloudinary.com/dl1z6mcsl/image/upload/v1624290155/kalen-emsley-Bkci_8qcdvQ-unsplash_l5vw0d.jpg";
+var downloadSize = 832512; //bytes
 
 function ShowProgressMessage(msg) {
     if (console) {
@@ -103,3 +107,17 @@ function MeasureConnectionSpeed() {
         // need to implement this
     }
 }
+
+// cloudflare ip address finder
+// $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
+//   // Convert key-value pairs to JSON
+//   // https://stackoverflow.com/a/39284735/452587
+//   data = data.trim().split('\n').reduce(function(obj, pair) {
+//     pair = pair.split('=');
+//     return obj[pair[0]] = pair[1], obj;
+//   }, {});
+//   console.log(data);
+// });
+
+
+
