@@ -317,4 +317,9 @@ button:hover {
   position: absolute;
   transform: translateY(35vh);
 }
+
+.home {
+  background: black;
+  z-index: 1;
+}
 /*# sourceMappingURL=main.css.map */
