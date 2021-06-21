@@ -39,7 +39,8 @@ function testLatency(cb) {
 
 // Speed code in mbps
 // link -- https://stackoverflow.com/a/5529841
-var imageAddr = "https://firebasestorage.googleapis.com/v0/b/images-6bad0.appspot.com/o/Wallpapers%2Fpng%2FAppBreweryWallpaper%202.png"; 
+// image from unsplash hosted in jsdelivr
+var imageAddr = "https://cdn.jsdelivr.net/gh/codechamp2006/Portfolio-1@main/dist/images/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg"; 
 var downloadSize = 4995374; //bytes
 
 function ShowProgressMessage(msg) {
