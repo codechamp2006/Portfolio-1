@@ -13,3 +13,7 @@
 @mixin buttongo_transition{
     transition: 0.4s ease-in-out;
 }
+
+@mixin network_transition{
+    transition: 0.3s ease-in-out;
+}

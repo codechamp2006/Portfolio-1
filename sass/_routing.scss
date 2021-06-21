@@ -1,4 +1,5 @@
 @import './variables';
+@import './config';
 
 .routing{
     font-family:$poppins;
@@ -7,6 +8,7 @@
     color:white;
     display: flex;
     flex-direction: column;
+    font-weight: 600;
 }
 
 h1{
@@ -41,4 +43,19 @@ button:hover{
     transform: translateY(35vh);
 }
 
+.server a{
+    text-decoration: none;
+    color: #4BB543; // got this color from https://www.colourlovers.com/color/4BB543/Success_Green
+    @include network_transition;
+}
+
+.server a:hover{
+    color: $nav_items_hover;
+    border-bottom: 1px solid $nav_items_hover;
+    @include network_transition;
+}
+
+.data-center span{
+    color: blue;
+}
 

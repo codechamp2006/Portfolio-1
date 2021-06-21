@@ -17,7 +17,7 @@ testLatency(function(avg){
   /** output */
 document.getElementById("speed").innerHTML = (("Latency: " + (avg.toFixed(2)) + "ms"));
 // Styling output
-document.getElementById("speed").style.fontFamily = 'Poppins', sans-serif;
+document.getElementById("speed").style.fontFamily = 'Poppins';
 });
 
 /** test and average time took to download image from server, called recursively timesToTest times */
@@ -101,23 +101,27 @@ function MeasureConnectionSpeed() {
         // styling output
         document.getElementById("mbpsSpeed").innerHTML = (
             "Your connection speed is: " + speedMbps + " Mbps");
-        document.getElementById("mbpsSpeed").style.fontFamily = 'Poppins',sans-serif;
+        document.getElementById("mbpsSpeed").style.fontFamily = 'Poppins';
 
         // conditions to display outputs according to speed
         // need to implement this
     }
 }
 
+
+{/* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 // cloudflare ip address finder
-// $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
-//   // Convert key-value pairs to JSON
-//   // https://stackoverflow.com/a/39284735/452587
-//   data = data.trim().split('\n').reduce(function(obj, pair) {
-//     pair = pair.split('=');
-//     return obj[pair[0]] = pair[1], obj;
-//   }, {});
-//   console.log(data);
-// });
+$.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
+  // Convert key-value pairs to JSON
+  // https://stackoverflow.com/a/39284735/452587
+  data = data.trim().split('\n').reduce(function(obj, pair) {
+    pair = pair.split('=');
+    return obj[pair[0]] = pair[1], obj;
+  }, {});
+  console.log(data);
+}); */}
+
+
 
 
 

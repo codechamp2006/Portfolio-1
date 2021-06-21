@@ -285,6 +285,7 @@ a {
   color: white;
   display: flex;
   flex-direction: column;
+  font-weight: 600;
 }
 
 h1 {
@@ -316,6 +317,22 @@ button:hover {
 .speed-card {
   position: absolute;
   transform: translateY(35vh);
+}
+
+.server a {
+  text-decoration: none;
+  color: #4BB543;
+  transition: 0.3s ease-in-out;
+}
+
+.server a:hover {
+  color: #ff0b0b;
+  border-bottom: 1px solid #ff0b0b;
+  transition: 0.3s ease-in-out;
+}
+
+.data-center span {
+  color: blue;
 }
 
 .home {
