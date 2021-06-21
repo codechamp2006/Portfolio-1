@@ -39,7 +39,7 @@ function testLatency(cb) {
 
 // Speed code in mbps
 // link -- https://stackoverflow.com/a/5529841
-var imageAddr = "https://ik.imagekit.io/gna0wch172q/icons8-youtube-studio-48_vj3EwgZw0.png"; 
+var imageAddr = "https://firebasestorage.googleapis.com/v0/b/images-6bad0.appspot.com/o/Wallpapers%2Fpng%2FAppBreweryWallpaper%202.png"; 
 var downloadSize = 4995374; //bytes
 
 function ShowProgressMessage(msg) {
