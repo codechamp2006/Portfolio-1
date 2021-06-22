@@ -5,6 +5,6 @@ Version 1.0
 
 # Hosting
 
-This site is hosted on [Github Pages](https://codechamp2006.github.com/Portfolio-1/)
+This site is hosted on [Github Pages](https://codechamp2006.github.io/Portfolio-1/)
 
 
