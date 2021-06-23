@@ -7,8 +7,9 @@ var timesToTest = 5;
 var tThreshold = 150; //ms
 // var testImage = "http://www.google.com/images/phd/px.gif"; // small image in your server
 // var testImage = "https://cdn.jsdelivr.net/gh/codechamp2006/Portfolio-1@main/dist/images/california.jpg"
-var testImage = "https://res.cloudinary.com/dl1z6mcsl/image/upload/v1624290155/kalen-emsley-Bkci_8qcdvQ-unsplash_l5vw0d.jpg";
+// var testImage = "https://res.cloudinary.com/dl1z6mcsl/image/upload/v1624290155/kalen-emsley-Bkci_8qcdvQ-unsplash_l5vw0d.jpg";
 // var testImage = "https://ik.imagekit.io/gna0wch172q/icons8-youtube-studio-48_vj3EwgZw0.png"
+var testImage = "https://x8u2r4d6.hostrycdn.com/Portfolio-1/dist/images/icons8-youtube-studio-48.png"; // using Hostry CDN with 52 POPs
 var dummyImage = new Image();
 var isConnectedFast = false;
 
@@ -44,7 +45,8 @@ function testLatency(cb) {
 // link -- https://stackoverflow.com/a/5529841
 // image from unsplash hosted in jsdelivr
 // var imageAddr = "https://cdn.jsdelivr.net/gh/codechamp2006/Portfolio-1@main/dist/images/california.jpg"; 
-var imageAddr = "https://res.cloudinary.com/dl1z6mcsl/image/upload/v1624290155/kalen-emsley-Bkci_8qcdvQ-unsplash_l5vw0d.jpg";
+// var imageAddr = "https://res.cloudinary.com/dl1z6mcsl/image/upload/v1624290155/kalen-emsley-Bkci_8qcdvQ-unsplash_l5vw0d.jpg";
+var imageAddr = "https://x8u2r4d6.hostrycdn.com/Portfolio-1/dist/images/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg"; // hostry cdn
 var downloadSize = 832512; //bytes
 
 function ShowProgressMessage(msg) {
