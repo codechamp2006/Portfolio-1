@@ -46,8 +46,8 @@ function testLatency(cb) {
 // image from unsplash hosted in jsdelivr
 // var imageAddr = "https://cdn.jsdelivr.net/gh/codechamp2006/Portfolio-1@main/dist/images/california.jpg"; 
 // var imageAddr = "https://res.cloudinary.com/dl1z6mcsl/image/upload/v1624290155/kalen-emsley-Bkci_8qcdvQ-unsplash_l5vw0d.jpg";
-var imageAddr = "https://x8u2r4d6.hostrycdn.com/Portfolio-1/dist/images/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg"; // hostry cdn
-var downloadSize = 832512; //bytes
+var imageAddr = "https://x8u2r4d6.hostrycdn.com/Portfolio-1/dist/images/antonio-grosz-OIzy-UubqrE-unsplash.jpg"; // hostry cdn
+var downloadSize = 4445962.24; //bytes
 
 function ShowProgressMessage(msg) {
     if (console) {
