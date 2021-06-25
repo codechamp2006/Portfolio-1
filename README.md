@@ -7,4 +7,6 @@ Version 1.0
 
 This site is hosted on [Github Pages](https://codechamp2006.github.io/Portfolio-1/)
 
-
+# CDNs
+> Hostry CDN
+> Cloudimage
